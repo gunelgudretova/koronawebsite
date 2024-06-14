@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container .navbar{
+    background-color:whitesmoke;
+   width: 100%;
+   height: 80px;
+    
+}
+.navbar .korona{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar .korona a{
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 8px;
+    line-height: 45px;
+
+}
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section{
+    padding: 4.5rem 0 1.5rem ;
+}
+.btn-1{
+    color: white;
+    border-radius: none;
+    background-color:#879afd;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+}
+.btn-2{
+    color: #879afd;
+    border-radius: none;
+    background-color:white;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    box-shadow: rgba(0.35, 0.35, 0.35, 0.35) 0px 5px 15px;
+    gap: 5px;
+}
+.swiper-slide-container{
+    background-color: #c2c9ee;
+    width: 100%;
+}
+.home-text{
+    padding: 0 150px ;
+    margin: 10px;
+}
+.home-text h2{
+    text-transform:capitalize;
+    font-weight: 400 ;
+}
+.link-box{
+    padding: 0 150px;
+    display: flex;
+    align-items: center; gap: 5px;
+}
+.btn-1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+.btn-2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+.first-title{
+    display: flex;
+    align-items: center;
+}
+.sec-title{
+    padding: 0 150px;
+}
+.sec-boxs-1{
+    padding: 0 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50px;
+    height: 120px;
+    background-color: aqua;
+}
+.sec-boxs-1 i{
+    font-size: 40px;
+} 
+.sec-title span{
+    text-transform: capitalize;
+    color: #879afd;
+}
+.sec-title h2{
+    text-transform: capitalize;
+
+}
+.sec-title p{
+    color: gray;
+}
+.sec-title button{
+    border-radius: none;
+    color: white;
+    background-color: #879afd;
+    border-style: none;
+    height: 50px;
+    width: 200px;
+}
+.btn-3:hover{
+    background-color: black;
+    transition: 0.2s ease;
+}
+.sec-title{
+    display: flex;
+    align-items: center;
+}
+.features-boxs-img{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.features-boxs-img img{
+    height: 50pxpx;
+}
+.features-section{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.features-boxs-items{
+    display: flex;
+    align-items: center;
+    
+}
+.features-boxs{
+    background-color:white;
+    height: 150px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px; 
+
+}
+.middle-title{
+    background-color:#cee5ef;
+}
+.features-section h4{
+    color: #879afd;
+}
+.features-section p{
+    color: gray;
+}
+.features{
+    display: flex;
+}
+.middle-section{
+    display: flex;
+}
+.middle-section-items{
+    padding: 40px;
+}
+body{
+    background-color: red;
+}
